@@ -1,5 +1,5 @@
-    tensorflow-cpu 
-    Pillow
-    numpy
-    flask
-    gunicorn
+flask
+numpy # Diperlukan untuk np.random.choice atau np.random.uniform
+gunicorn
+# Jika Anda masih menggunakan Pillow untuk hal lain, biarkan. Tapi untuk dummy ini, tidak perlu
+# Pillow
